@@ -49,6 +49,8 @@ def train():
 
         scheduler.step()
 
+    torch.save(model.state_dict(), "model.pth")
+
 
 def getModel():
     model = smp.FPN(
