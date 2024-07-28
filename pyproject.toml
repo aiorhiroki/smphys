@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "smphys"
+version = "0.1.0"
+description = ""
+authors = ["Hiroki Matsuzaki <hiroki.matsuzaki@jmees-inc.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+segmentation-models-pytorch = "^0.3.3"
+six = "^1.16.0"
+albumentations = "^1.4.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
